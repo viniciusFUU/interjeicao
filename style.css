@@ -1,0 +1,63 @@
+body {
+    background: radial-gradient(circle, rgba(63,251,229,1) 0%, rgba(105,58,249,1) 100%);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+    color: rgb(236, 243, 249);
+    background-color: rgba(0, 0, 0, 0.605);
+    padding: 20px;
+    width: 600px;
+    border-radius: 15px;
+}
+
+#container{
+    margin: 0 0 1rem 0;
+}
+
+h2{
+    margin: -3px 0 1rem 0;
+}
+
+#label{
+    width: 80px;
+    height: 20px;
+    background-color: rgba(63,251,229,1);
+    color: rgba(0, 0, 0, 0.605);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+input{
+    border: none;
+    width: 99%;
+    height: 25px;
+    border-radius: 5px;
+}
+
+button{
+    height: 30px;
+    background-color: rgba(63,251,229,1);
+    color: rgba(0, 0, 0, 0.605);  
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+button:hover{
+    background-color: rgba(105,58,249,1);
+    color: rgb(236, 243, 249);
+    transition: .2s;
+    cursor: pointer;
+}
+
+#result{
+
+}
