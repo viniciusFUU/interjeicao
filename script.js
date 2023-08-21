@@ -14,7 +14,7 @@ document.getElementById("calculate").addEventListener("click", () => {
   const intersecao = conjuntoA.filter((element) => conjuntoB.includes(element));
 
   //Selecionando a <div> com o "id=result", O método "join" serve para formatar o array "intersecao" com vírgulas;
-  //Inseri um "if/else" para se caso acontecer de o usuário não inserir nenhum
+  //Inseri um "if/else" para se caso acontecer de o usuário não inserir nenhum elemento em um dos conjuntos, ele retornar uma mensagem solicitando o preenchimento dos dois campos.
   if (setAInput && setBInput !== "") {
     const resultElement = document.getElementById("result");
     resultElement.innerHTML = `A interseção entre os conjuntos é: ${intersecao.join(
