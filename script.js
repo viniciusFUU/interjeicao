@@ -15,12 +15,12 @@ document.getElementById("calculate").addEventListener("click", () => {
 
   //Selecionando a <div> com o "id=result", O método "join" serve para formatar o array "intersecao" com vírgulas;
   //Inseri um "if/else" para se caso acontecer de o usuário não inserir nenhum
-  if (setAInput || setBInput !== "") {
+  if (setAInput && setBInput !== "") {
     const resultElement = document.getElementById("result");
     resultElement.innerHTML = `A interseção entre os conjuntos é: ${intersecao.join(
       ", "
     )}`;
-  } else if (setAInput || setBInput == "") {
+  } else if (setAInput || setBInput === "") {
     const resultElement = document.getElementById("result");
     resultElement.innerHTML = `É necessário inserir um conjunto nos dois campos.`;
   } else {
